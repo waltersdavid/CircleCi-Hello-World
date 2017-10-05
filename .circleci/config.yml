@@ -35,8 +35,9 @@ jobs:
         
       # run tests!
       - run: npm run test
-  deployment:
-    staging:
-      branch: master
-      heroku:
-        appname: circleci-hello-world
+      
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: circleci-hello-world
