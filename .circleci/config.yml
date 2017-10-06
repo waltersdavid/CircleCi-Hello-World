@@ -39,8 +39,8 @@ jobs:
       # build
       - run: npm run build
 
-deployment:
-  development:
-    branch: master
-    heroku:
-      appname: circleci-hello-world
+  deployment:
+    development:
+      branch: master
+      heroku:
+        appname: circleci-hello-world
